@@ -1,0 +1,222 @@
+@charset "UTF-8";
+@import url("background.css");
+/* CSS Document */
+#pagewrap {
+	width: 900px;
+	margin: 0 auto;
+}
+
+
+h1 {
+	font-size: 1.125em;
+	padding-bottom: 5%;
+	padding-top: 2%;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;	
+}
+
+h2 {
+	font-size: 0.875em;
+	
+}
+
+
+#content {
+	background-image: url(../images/texturebackground.png);
+	background-repeat: repeat-y;
+	border-style: none;
+	padding-left: 16%;
+	width: 80%;
+	
+}
+
+
+legend {
+	color: #FFF;
+	padding-left: 2%;
+	background-image: url(../images/step1background.png);
+	background-repeat: no-repeat;
+	 
+}
+
+
+.content h2 {
+	font-size: 1.275em;
+}
+
+
+
+a img { 
+	border: none;
+}
+
+img {
+	max-width: 100%;
+	
+}
+
+
+form {
+	padding-top:5%;
+}
+
+#uptothree {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.125em;
+	color: #630;
+	text-align: center;
+}
+
+#uptothree p {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.75em;
+	color: #630;
+	text-align: center;
+}
+
+.form1 {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 18%;
+	background-image: url(../images/Firstclasschoice.png);
+	background-repeat: no-repeat;	
+}
+
+
+.form2 {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 18%;
+	background-image: url(../images/Secondclasschoice.png);
+	background-repeat: no-repeat;
+}
+
+.form3 {
+	padding-top: 5%;
+	padding-bottom: 2%;
+	padding-left: 18%;
+	background-image: url(../images/Thirdclasschoice.png);
+	background-repeat: no-repeat;
+}
+
+#scroll2 li {
+	padding-right: 15%;
+	list-style: none;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: .75em;
+	display: inline;
+	
+}
+
+@media screen and (max-width: 980px) {
+
+	#pagewrap {
+		width: 95%;
+	}
+
+	#content {
+	width: 90%;
+	padding: 3% 4% 3% 22%;	
+	}
+	
+	.logo {
+	background-color: #039;
+	}
+	nav li {
+		display:block;
+	}
+	
+	form {
+	padding-left: 10%;
+	
+	}
+	
+	#content {
+		width: 87%;
+		padding-left:10%;
+			}
+
+}
+
+@media screen and (max-width: 650px) {
+
+	#header {
+		height: auto;
+	}
+
+	#content {
+	width: auto;
+	float: none;
+	margin: 20px 0;
+	background-color: #FFF;
+	padding-left: 3%;
+	}
+	.logo {
+	background-color: #FC3;
+}
+
+
+@media screen and (max-width: 480px) {
+
+	html {
+		-webkit-text-size-adjust: none;
+	}
+
+	nav a {
+		font-size: 90%;
+		
+	}
+	nav li {
+		display:block;
+	}
+	.logo {
+	padding-bottom: 2%;
+	padding-left: 0%;
+	}
+	nav {
+		padding-top: 0%;
+	}
+	
+	#content {
+		width: 95%;
+	}
+	nav li {
+		font-size: 90%;
+	}
+	
+	#content {
+		width: 90%;
+	}
+	select {
+		width: 90%;	
+	}
+	textarea {
+		width: 90%;
+	}
+	#scroll2 li {
+		font-size:0.625;
+		display: block;
+		text-align: center;
+	}
+.form1 {
+	padding-top: 9%;
+	
+	
+}
+
+
+.form2 {
+	padding-top: 9%;
+	
+	
+}
+
+.form3 {
+	padding-top: 9%;
+	
+	
+}
+
+}

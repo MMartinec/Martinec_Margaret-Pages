@@ -1,0 +1,127 @@
+@charset "UTF-8";
+@import url("background.css");
+/* CSS Document */
+#pagewrap {
+	width: 900px;
+	margin: 0 auto;
+}
+
+
+
+h1 {
+	font-size: 0.625em;
+	padding-bottom: 5%;
+	padding-top: 2%;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;	
+}
+
+h2 {
+	font-size: 0.875em;
+	
+}
+
+
+#content {
+	background-image: url(../images/texturebackground.png);
+	background-repeat: repeat-y;
+	border-style: none;
+	padding-left: 16%;
+	width: 80%;
+	
+}
+
+
+
+#content h2 {
+	font-size: 1.275em;
+}
+
+#confirm {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1.275em;
+	color: #5B3E22;
+	text-align: center;
+	background-image: url(../images/bluebackdrop.png);
+	background-repeat: repeat-y;
+	text-align: center;
+	padding-bottom: 2%;
+	padding-right: 20%;
+}
+#confirm p{
+	padding-top: 5%;
+}
+
+
+
+
+@media screen and (max-width: 980px) {
+
+	#pagewrap {
+		width: 95%;
+	}
+
+	#content {
+	width: 90%;
+	padding: 3% 4% 3% 22%;	
+	}
+	
+	nav li {
+		display:block;
+	}
+	
+	#content {
+		width: 87%;
+		padding-left:10%;
+			}
+
+}
+
+@media screen and (max-width: 650px) {
+
+	#header {
+		height: auto;
+	}
+
+	#content {
+	width: auto;
+	float: none;
+	margin: 20px 0;
+	background-color: #FFF;
+	padding-left: 3%;
+	}
+
+@media screen and (max-width: 480px) {
+
+	html {
+		-webkit-text-size-adjust: none;
+	}
+
+	nav a {
+		font-size: 90%;
+		
+	}
+	nav li {
+		display:block;
+	}
+	#logo {
+	padding-bottom: 2%;
+	padding-left: 0%;	
+	}
+	nav {
+		padding-top: 0%;
+	}
+	
+	#content {
+		width: 95%;
+	}
+	nav li {
+		font-size: 90%;
+	}
+	
+	#content {
+		width: 90%;
+	}	
+	
+
+}

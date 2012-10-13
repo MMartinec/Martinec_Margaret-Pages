@@ -1,0 +1,171 @@
+@charset "UTF-8";
+/* CSS Document */
+h1 {
+	font-size: 1.125em;
+	padding-bottom: 5%;
+	padding-top: 2%;
+	text-align: center;
+	
+}
+
+h2 {
+	font-size: 0.875em;
+	
+}
+
+#content {
+	background-image: url(../images/texturebackground.png);
+	background-repeat: repeat-y;
+	border-style: none;
+	padding-left: 18.3%;
+}
+
+
+
+.about {
+	padding-left: 22%;
+	padding-top: 3%;
+	background-image: url(../images/bluebackdropformpage1.png);
+	background-repeat: no-repeat;
+	z-index: auto;
+	visibility: visible;
+}
+legend {
+	color: #FFF;
+	padding-left: 2%;
+	background-image: url(../images/step1background.png);
+	background-repeat: no-repeat;
+	 
+}
+
+
+.content h2 {
+	font-size: 1.275em;
+}
+
+
+input {
+	padding-left: 10%;
+}
+
+
+
+form {
+	padding-top: 0;
+}
+#scroll1 li {
+	padding-right: 20%;
+	padding-left: 5%;
+	list-style: none;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: .75em;
+	display: inline;
+	
+}
+
+	
+
+
+@media screen and (max-width: 980px) {
+
+	#pagewrap {
+		width: 95%;
+	}
+
+	#content {
+	width: 90%;
+	padding: 3% 4% 3% 22%;	
+	}
+	
+	nav li {
+		display:block;
+	}
+	
+	form {
+	padding-left: 10%;
+	
+	}
+	.about {
+		padding-left: 20%;
+	}
+	#content {
+		width: 87%;
+		padding-left:10%;
+		
+	}
+	#scroll1 {
+		padding-left: 20%;
+		
+	}
+
+	
+
+}
+
+@media screen and (max-width: 650px) {
+
+	#header {
+		height: auto;
+	}
+
+	#content {
+	width: auto;
+	float: none;
+	margin: 20px 0;
+	background-color: #FFF;
+	padding-left: 3%;
+	}
+
+	nav li {
+		display:block;
+	}
+	#logo {
+	padding-bottom: 2%;
+	padding-left: 0%;
+	}
+	nav {
+		padding-top: 0%;
+	}
+	
+
+
+}
+@media screen and (max-width: 480px) {
+
+	html {
+		-webkit-text-size-adjust: none;
+	}
+
+	nav a {
+		font-size: 90%;
+		
+	}
+	nav li {
+		display:block;
+	}
+	#logo {
+	padding-bottom: 2%;
+	padding-left: 0%;
+	}
+	nav {
+		padding-top: 0%;
+	}
+	
+	#content {
+		width: 95%;
+	}
+	nav li {
+		font-size: 90%;
+	}
+	form { padding-left: 0%;
+	}
+	
+	#scroll1 li {
+		font-size:0.625;
+		display: block;
+		text-align: center;
+	}
+	
+	
+
+}
