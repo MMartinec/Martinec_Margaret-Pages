@@ -26,9 +26,8 @@ h2 {
 	padding-left: 22%;
 	padding-top: 3%;
 	background-image: url(../images/bluebackdropformpage1.png);
-	background-repeat: no-repeat;
-	z-index: auto;
-	visibility: visible;
+	background-repeat: no-repeat;	
+	
 }
 legend {
 	color: #FFF;
