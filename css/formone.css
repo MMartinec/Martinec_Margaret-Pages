@@ -23,12 +23,13 @@ h2 {
 
 
 .about {
-	padding-left: 22%;
+	padding-left: 0%;
 	padding-top: 3%;
 	background-image: url(../images/bluebackdropformpage1.png);
 	background-repeat: no-repeat;	
-	
 }
+
+
 legend {
 	color: #FFF;
 	padding-left: 2%;
@@ -51,6 +52,8 @@ input {
 
 form {
 	padding-top: 0;
+	padding-left: 22%;
+	
 }
 #scroll1 li {
 	padding-right: 20%;
