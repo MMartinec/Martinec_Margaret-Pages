@@ -1,11 +1,19 @@
 @charset "UTF-8";
+@import url("background.css");
 /* CSS Document */
+#pagewrap {
+	width: 900px;
+	margin: 0 auto;
+}
+
+
+
 h1 {
 	font-size: 1.125em;
 	padding-bottom: 5%;
 	padding-top: 2%;
 	text-align: center;
-	
+	font-family: Helvetica, Arial, sans-serif;	
 }
 
 h2 {
@@ -13,24 +21,14 @@ h2 {
 	
 }
 
+
 #content {
 	background-image: url(../images/texturebackground.png);
 	background-repeat: repeat-y;
 	border-style: none;
-	padding-left: 18.3%;
-}
-
-
-
-.about {
-	padding-left: 0%;
-	padding-top: 3%;
-	background-image: url(../images/bluebackdropformpage1.png);
-	background-repeat: no-repeat;
-	z-index:	
-; 	overflow: visible;
-	visibility: visible;
-	z-index: 4;
+	padding-left: 16%;
+	width: 80%;
+	
 }
 
 
@@ -48,29 +46,40 @@ legend {
 }
 
 
-input {
-	padding-left: 10%;
+
+a img { 
+	border: none;
 }
 
+img {
+	max-width: 100%;
+	
+}
 
 
 form {
-	padding-top: 0;
+	padding-top:5%;
 	padding-left: 22%;
-	
 }
-#scroll1 li {
+
+
+
+
+#scroll3 li {
 	padding-right: 20%;
-	padding-left: 5%;
 	list-style: none;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: .75em;
 	display: inline;
 	
 }
-
-	
-
+#scroll3 {
+	padding-left: 15%;
+}
+.bluebackdrop {
+	background-image: url(../images/bluebackdropstep3.png);
+	background-repeat: no-repeat;
+}
 
 @media screen and (max-width: 980px) {
 
@@ -91,20 +100,11 @@ form {
 	padding-left: 10%;
 	
 	}
-	.about {
-		padding-left: 20%;
-	}
+	
 	#content {
 		width: 87%;
 		padding-left:10%;
-		
-	}
-	#scroll1 {
-		padding-left: 20%;
-		
-	}
-
-	
+			}
 
 }
 
@@ -122,20 +122,7 @@ form {
 	padding-left: 3%;
 	}
 
-	nav li {
-		display:block;
-	}
-	#logo {
-	padding-bottom: 2%;
-	padding-left: 0%;
-	}
-	nav {
-		padding-top: 0%;
-	}
-	
 
-
-}
 @media screen and (max-width: 480px) {
 
 	html {
@@ -163,14 +150,22 @@ form {
 	nav li {
 		font-size: 90%;
 	}
-	form { padding-left: 0%;
-	}
 	
-	#scroll1 li {
+	#content {
+		width: 90%;
+	}
+	select {
+		width: 90%;	
+	}
+	textarea {
+		width: 90%;
+	}
+	#scroll3 li {
 		font-size:0.625;
 		display: block;
 		text-align: center;
 	}
+	
 	
 	
 
