@@ -26,7 +26,11 @@ h2 {
 	padding-left: 0%;
 	padding-top: 3%;
 	background-image: url(../images/bluebackdropformpage1.png);
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
+	z-index:	
+; 	overflow: visible;
+	visibility: visible;
+	z-index: 4;
 }
 
 
