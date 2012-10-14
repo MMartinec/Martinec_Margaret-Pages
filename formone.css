@@ -58,14 +58,14 @@ img {
 
 
 form {
-	padding-top:5%;
+	padding-top:2%;
 	padding-left: 22%;
 }
 
 
 
 
-#scroll1 li {
+#scroll3 li {
 	padding-right: 20%;
 	list-style: none;
 	font-family: Helvetica, Arial, sans-serif;
@@ -73,7 +73,7 @@ form {
 	display: inline;
 	
 }
-#scroll1 {
+#scroll3 {
 	padding-left: 15%;
 }
 .bluebackdrop {
